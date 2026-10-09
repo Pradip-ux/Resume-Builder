@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "node --watch index.js"
   },
   "keywords": [],
   "author": "",
@@ -21,8 +21,5 @@
     "mongoose": "^9.9.1",
     "multer": "^2.2.0",
     "openai": "^7.4.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.14"
   }
 }
