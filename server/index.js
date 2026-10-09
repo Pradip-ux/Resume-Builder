@@ -23,7 +23,7 @@ app.use('/api/users',userRouter);
 app.use('/api/ai',aiRouter)
 app.use('/api/resumes',resumeRouter);
 
-app.listen(port, () => {
-    console.log('Server Running on : ', port);
-});
+app.listen(port, '0.0.0.0', () => {
+  console.log(`Server running on port ${port}`)
+})
 connectDb();
